@@ -1,0 +1,19 @@
+Dependencies for Project 'kbc', Target 'Target 1': (DO NOT MODIFY !)
+F (.\RTX_Config.c)(0x5A1049A0)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o ..\..\hex\rtx_config.o --omf_browse ..\..\hex\rtx_config.crf --depend ..\..\hex\rtx_config.d)
+I (C:\Keil\ARM\RV31\INC\RTL.h)(0x532C1630)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.H)(0x532C1500)
+I (C:\Keil\ARM\RV31\INC\RTX_lib.c)(0x532C1630)
+F (.\Startup.s)(0x5A103C28)(--cpu ARM7TDMI --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o ..\..\hex\startup.o --depend ..\..\hex\startup.d)
+F (.\buzz.h)(0x5A1BF231)()
+F (.\buz1.c)(0x5A1AFC52)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o ..\..\hex\buz1.o --omf_browse ..\..\hex\buz1.crf --depend ..\..\hex\buz1.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (C:\Keil\ARM\RV31\INC\rtl.h)(0x532C1630)
+F (.\trial.c)(0x5A1BFCBB)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o ..\..\hex\trial.o --omf_browse ..\..\hex\trial.crf --depend ..\..\hex\trial.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7E87C)
+I (C:\Keil\ARM\RV31\INC\rtl.h)(0x532C1630)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (buzz.h)(0x5A1BF231)
+F (.\peri.c)(0x5A1BF231)(-c --cpu ARM7TDMI -D__RTX -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o ..\..\hex\peri.o --omf_browse ..\..\hex\peri.crf --depend ..\..\hex\peri.d)
+I (C:\Keil\ARM\Inc\Philips\lpc21xx.h)(0x532C1500)
+I (buzz.h)(0x5A1BF231)

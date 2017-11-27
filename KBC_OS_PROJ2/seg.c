@@ -1,0 +1,9 @@
+#include<lpc21xx.h>
+void seven(int k)
+{
+unsigned int disp[10]={0x203f0000, 0x20060000, 0x205b0000, 0x204f0000,0x20660000,0x206d0000, 0x207d0000, 0x20070000, 0x207f0000, 0x206f0000};
+PINSEL0|=0x00000000;
+IODIR0=0x30ff0000;
+IOCLR0=0x00ff0000;
+IOSET0=disp[k];
+}
